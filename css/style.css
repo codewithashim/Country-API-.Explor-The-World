@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+}
+
+
+.countryContent {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0.7rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    transition: all ease-in-out 0.5s;
+    width: 17rem;
+}
+
+.flagImg {
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.countryContent:hover {
+    background: indianred;
+}
+
+.countyDetailsBtn {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    background: rgb(107, 186, 238);
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-in-out 0.7s;
+}
+
+.countyDetailsBtn:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+    color: black;
+}
+
+
+#countryDetaisSection {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.showDetails {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    height: max-content;
+}
+
+.countryDetails {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem auto;
+    text-align: left;
+    transition: all ease-in-out 0.7s;
+
+}
+
+.countryDetails:hover{
+    background: whitesmoke;
+}
+
+.countryImg {
+    border: 1px solid salmon;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+}
